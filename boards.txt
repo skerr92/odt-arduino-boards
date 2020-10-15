@@ -1,0 +1,33 @@
+
+menu.cpu=Processor
+
+##############################################################
+
+megasapling.name=Mega Sapling
+
+megasapling.upload.tool=avrdude
+megasapling.upload.protocol=arduino
+
+megasapling.bootloader.tool=avrdude
+megasapling.bootloader.unlock_bits=0x3F
+megasapling.bootloader.lock_bits=0x0F
+
+megasapling.build.f_cpu=16000000L
+megasapling.build.board=AVR_SAPLING
+megasapling.build.core=arduino
+megasapling.build.variant=twoanaloginputs
+
+## Mega Sapling w/ ATmega328P
+## --------------------------
+megasapling.menu.cpu.atmega328=ATmega328P
+
+megasapling.menu.cpu.atmega328.upload.maximum_size=30720
+megasapling.menu.cpu.atmega328.upload.maximum_data_size=2048
+megasapling.menu.cpu.atmega328.upload.speed=115200
+
+megasapling.menu.cpu.atmega328.bootloader.low_fuses=0xFF
+megasapling.menu.cpu.atmega328.bootloader.high_fuses=0xDA
+megasapling.menu.cpu.atmega328.bootloader.extended_fuses=0xFD
+megasapling.menu.cpu.atmega328.bootloader.file=optiboot/optiboot_atmega328.hex
+
+megasapling.menu.cpu.atmega328.build.mcu=atmega328p

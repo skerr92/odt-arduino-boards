@@ -1,0 +1,34 @@
+{
+  "packages":
+  [
+    {
+      "name": "odt_saplings",
+      "maintainer": "Oak Development Technologies",
+      "websiteURL": "https://oakdev.tech",
+      "email" : "hello@oakdev.tech",
+      "platforms":
+      [
+        {
+          "name": "Mega Sapling",
+          "architecture": "avr",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "",
+          "archiveFileName": "Saplings-0.0.1.zip",
+          "checksum": "SHA-256:fce5cd862784000564c7329b4f3442e9b27c73d736a60e400381a738826dd08a",
+          "size": "282677",
+          "boards": [
+            {
+              "name": "ODT Mega Sapling"
+            }
+          ],
+          "toolsDependencies":
+          []
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}

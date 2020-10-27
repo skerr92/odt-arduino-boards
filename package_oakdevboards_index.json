@@ -1,13 +1,11 @@
 {
-  "packages":
-  [
+  "packages": [
     {
-      "name": "odt_saplings",
+      "name": "odt",
       "maintainer": "Oak Development Technologies",
       "websiteURL": "https://oakdev.tech",
       "email" : "hello@oakdev.tech",
-      "platforms":
-      [
+      "platforms": [
         {
           "name": "Mega Sapling",
           "architecture": "avr",
@@ -22,13 +20,10 @@
               "name": "ODT Mega Sapling"
             }
           ],
-          "toolsDependencies":
-          []
+          "toolsDependencies": []
         }
       ],
-      "tools":
-      [
-      ]
+      "tools": []
     }
   ]
 }

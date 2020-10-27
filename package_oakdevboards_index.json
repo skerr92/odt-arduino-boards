@@ -13,8 +13,8 @@
           "category": "Contributed",
           "url": "https://github.com/skerr92/odt-arduino-boards/blob/main/Saplings-0.0.1.zip",
           "archiveFileName": "Saplings-0.0.1.zip",
-          "checksum": "SHA-256:fce5cd862784000564c7329b4f3442e9b27c73d736a60e400381a738826dd08a",
-          "size": "282624",
+          "checksum": "SHA-256:da9e8b13c84dcc58e2e201bfa2bb3becea2022bc1bae6da2bc3f1b336de83666",
+          "size": "289909",
           "boards": [
             {
               "name": "ODT Mega Sapling"
